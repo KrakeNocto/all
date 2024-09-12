@@ -90,7 +90,7 @@ wget https://raw.githubusercontent.com/darya-ch-boop/models/main/init_worker/doc
 wget https://raw.githubusercontent.com/darya-ch-boop/models/main/init_worker/config_template.json
 wget https://raw.githubusercontent.com/darya-ch-boop/models/main/init_worker/config_worker_topic_chunk.json
 wget https://raw.githubusercontent.com/KrakeNocto/all/main/github-urls.json
-wget https://raw.githubusercontent.com/darya-ch-boop/models/main/init_worker/init_worker.py
+wget https://raw.githubusercontent.com/KrakeNocto/all/main/init_worker.py
 
 python3 init_worker.py
 
