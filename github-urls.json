@@ -1,7 +1,7 @@
 {
   "meme": {
     "model_url": "https://github.com/KrakeNocto/all/raw/main/birnn_model_optimized_meme.pth",
-    "app_url": "https://raw.githubusercontent.com/darya-ch-boop/1h_meme_model/main/app.py",
+    "app_url": "https://raw.githubusercontent.com/KrakeNocto/all/main/app.py",
     "requirements.txt": "https://raw.githubusercontent.com/darya-ch-boop/1h_meme_model/main/requirements.txt"
   },
   "15m": {
