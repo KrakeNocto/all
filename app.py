@@ -68,7 +68,16 @@ def get_inference(token):
         'NFP':'NFPUSDT',
         'PHB':'PHBUSDT',
         'OM':'OMUSDT',
-        'RSR':'RSRUSDT'
+        'RSR':'RSRUSDT',
+        'ICP':'ICPUSDT',
+        'PENDLE':'PENDLEUSDT',
+        'SNX':'SNXUSDT',
+        'RAY':'RAYUSDT',
+        'RENDER':'RENDERUSDT',
+        'IO':'IOUSDT',
+        'FIDA':'FIDAUSDT',
+        'DUSK':'DUSKUSDT',
+        'WLD':'WLDUSDT'
     }
 
     token = token.upper()
