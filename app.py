@@ -77,7 +77,14 @@ def get_inference(token):
         'IO':'IOUSDT',
         'FIDA':'FIDAUSDT',
         'DUSK':'DUSKUSDT',
-        'WLD':'WLDUSDT'
+        'WLD':'WLDUSDT',
+        'THETA':'THETAUSDT',
+        'POND':'PONDUSDT',
+        'PHA':'PHAUSDT',
+        'TNSR':'TNSRUSDT',
+        'TURBO':'TURBOUSDT',
+        'NEIRO':'NEIROUSDT',
+        '1MBABYDOGE':'1MBABYDOGEUSDT'
     }
 
     token = token.upper()
