@@ -84,7 +84,14 @@ def get_inference(token):
         'TNSR':'TNSRUSDT',
         'TURBO':'TURBOUSDT',
         'NEIRO':'NEIROUSDT',
-        '1MBABYDOGE':'1MBABYDOGEUSDT'
+        '1MBABYDOGE':'1MBABYDOGEUSDT',
+        'JTO':'JTOUSDT',
+        'JUP':'JUPUSDT',
+        'W':'WUSDT',
+        'TRU':'TRUUSDT',
+        'POLYX':'POLYXUSDT',
+        'MKR':'MKRUSDT',
+        'GMT':'GMTUSDT'
     }
 
     token = token.upper()
