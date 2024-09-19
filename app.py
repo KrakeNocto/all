@@ -91,7 +91,24 @@ def get_inference(token):
         'TRU':'TRUUSDT',
         'POLYX':'POLYXUSDT',
         'MKR':'MKRUSDT',
-        'GMT':'GMTUSDT'
+        'GMT':'GMTUSDT',
+        'PYTH':''PYTHUSDT',
+        'AVAX':''AVAXUSDT',
+        'CHR':''CHRUSDT',
+        'HIFI':''HIFIUSDT',
+        'LTO':''LTOUSDT',
+        'ARPA':''ARPAUSDT',
+        'ASTR':''ASTRUSDT',
+        'ATOM':''ATOMUSDT',
+        'AXL':''AXLUSDT',
+        'BB':''BBUSDT',
+        'CELO':''CELOUSDT',
+        'CFX':''CFXUSDT',
+        'CHZ':''CHZUSDT',
+        'COMBO':''COMBOUSDT',
+        'DCR':''DCRUSDT',
+        'EGLD':''EGLDUSDT',
+        'EOS':''EOSUSDT'
     }
 
     token = token.upper()
