@@ -4,10 +4,12 @@ systemctl stop allora
 
 wget https://github.com/allora-network/allora-chain/releases/download/v0.5.0/allorad_linux_amd64
 
-rm /root/.allorad/cosmovisor/upgrades/v0.4.0/bin/allorad
+mkdir -p /root/.allorad/cosmovisor/upgrades/v0.5.0/bin/
 
-mv allorad_linux_amd64 /root/.allorad/cosmovisor/upgrades/v0.4.0/bin/allorad
+sed -ie 's|Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=true"|Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"|' /etc/systemd/system/allora.service
 
-chmod +x /root/.allorad/cosmovisor/upgrades/v0.4.0/bin/allorad
+mv allorad_linux_amd64 /root/.allorad/cosmovisor/upgrades/v0.5.0/bin/allorad
 
-systemctl restart allora && journalctl -fu allora
+chmod +x /root/.allorad/cosmovisor/upgrades/v0.5.0/bin/allorad
+
+systemctl daemon-reload && systemctl restart allora && journalctl -fu allora
