@@ -108,7 +108,23 @@ def get_inference(token):
         'COMBO':'COMBOUSDT',
         'DCR':'DCRUSDT',
         'EGLD':'EGLDUSDT',
-        'EOS':'EOSUSDT'
+        'EOS':'EOSUSDT',
+        'ACE':'ACEUSDT',
+        'AEVO':'AEVOUSDT',
+        'ALT':'ALTUSDT',
+        'AXS':'AXSUSDT',
+        'BAND':'BANDUSDT',
+        'BAT':'BATUSDT',
+        'BNX':'BNXUSDT',
+        'C98':'C98USDT',
+        'BURGE':'BURGEUSDT',
+        'CHESS':'CHESSUSDT',
+        'CITY':'CITYUSDT',
+        'COTI':'COTIUSDT',
+        'CVC':'CVCUSDT',
+        'CVX':'CVXUSDT',
+        'DASH':'DASHUSDT',
+        'DGB':'DGBUSDT'
     }
 
     token = token.upper()
