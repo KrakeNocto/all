@@ -12,11 +12,11 @@ MODEL_TYPES = ["meme", "15m", "1d"]  # from github-urls.json (GITHUB_URLS_PATH)
 TOPIC_INFO = """
 Topic ID        Metadata         Default Arg
   1       ETH 10min Prediction       ETH
-  2       ETH 24h Prediction         ETH
+  2       AAVE 24h Prediction         AAVE
   3       BTC 10min Prediction       BTC
-  4       BTC 24h Prediction         BTC
+  4       INJ 24h Prediction         INJ
   5       SOL 10min Prediction       SOL
-  6       SOL 24h Prediction         SOL
+  6       UNI 24h Prediction         UNI
   7       ETH 20min Prediction       ETH
   8       BNB 20min Prediction       BNB
   9       ARB 20min Prediction       ARB
@@ -25,11 +25,11 @@ Topic ID        Metadata         Default Arg
 
 TOPICS_ARGS = {
     "1": "ETH",
-    "2": "ETH",
+    "2": "AAVE",
     "3": "BTC",
-    "4": "BTC",
+    "4": "INJ",
     "5": "SOL",
-    "6": "SOL",
+    "6": "UNI",
     "7": "ETH",
     "8": "BNB",
     "9": "ARB",
