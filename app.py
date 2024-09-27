@@ -124,7 +124,28 @@ def get_inference(token):
         'CVC':'CVCUSDT',
         'CVX':'CVXUSDT',
         'DASH':'DASHUSDT',
-        'DGB':'DGBUSDT'
+        'DGB':'DGBUSDT',
+        'ELF':'ELFUSDT',
+        'ENJ':'ENJUSDT',
+        'ENR':'ENRUSDT',
+        'FARM':'FARMUSDT',
+        'FIL':'FILUSDT',
+        'FIRO':'FIROUSDT',
+        'FLOW':'FLOWUSDT',
+        'GALA':'GALAUSDT',
+        'GLM':'GLMUSDT',
+        'GNO':'GNOUSDT',
+        'HARD':'HARDUSDT',
+        'HIGH':'HIGHUSDT',
+        'HOT':'HOTUSDT',
+        'HOOK':'HOOKUSDT',
+        'IDEX':'IDEXUSDT',
+        'ILV':'ILVUSDT',
+        'IOT':'IOTUSDT',
+        'IRIS':'IRISUSDT',
+        'JOE':'JOEUSDT',
+        'KDA':'KDAUSDT',
+        'KEY':'KEYUSDT'
     }
 
     token = token.upper()
