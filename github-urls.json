@@ -10,8 +10,8 @@
     "requirements.txt": "https://raw.githubusercontent.com/darya-ch-boop/15m_model/main/requirements.txt"
   },
   "1d": {
-    "model_url": "https://github.com/KrakeNocto/all/raw/main/birnn_model_optimized_meme.pth",
-    "app_url": "https://raw.githubusercontent.com/KrakeNocto/all/main/app.py",
+    "model_url": "https://github.com/KrakeNocto/1D_model/blob/main/birnn_model_optimized.pth",
+    "app_url": "https://raw.githubusercontent.com/KrakeNocto/1D_model/refs/heads/main/app.py",
     "requirements.txt": "https://raw.githubusercontent.com/darya-ch-boop/1d_model/main/requirements.txt"
   }
 }
