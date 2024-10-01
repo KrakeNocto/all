@@ -145,7 +145,24 @@ def get_inference(token):
         'IRIS':'IRISUSDT',
         'JOE':'JOEUSDT',
         'KDA':'KDAUSDT',
-        'KEY':'KEYUSDT'
+        'KEY':'KEYUSDT',
+        'AERGO':''AERGOUSDT',
+        'ALC':''ALCUSDT',
+        'ALICE':''ALICEUSDT',
+        'ALPHA':''ALPHAUSDT',
+        'AMB':''AMBUSDT',
+        'API3':''API3USDT',
+        'APT':''APTUSDT',
+        'ARKM':''ARKMUSDT',
+        'AST':''ASTUSDT',
+        'AUCTION':''AUCTIONUSDT',
+        'BAKE':''BAKEUSDT',
+        'BAR':''BARUSDT',
+        'BLUR':''BLURUSDT',
+        'BTTC':''BTTCUSDT',
+        'CELR':''CELRUSDT',
+        'COSU':''COSUUSDT',
+        'CTSI':''CTSIUSDT'
     }
 
     token = token.upper()
